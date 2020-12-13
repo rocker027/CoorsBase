@@ -23,6 +23,8 @@ object Libs {
         const val Junit = "androidx.test.ext:junit:${Versions.AndroidX.Junit}"
         const val Espresso = "androidx.test.espresso:espresso-core:${Versions.AndroidX.Espresso}"
         const val Fragment = "androidx.fragment:fragment-ktx:${Versions.AndroidX.Fragment}"
+        const val LifeCycleCommon =
+            "androidx.lifecycle:lifecycle-common-java8:${Versions.AndroidX.LifeCycle}"
         const val LifeCycle =
             "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.AndroidX.LifeCycle}"
         const val LiveData =
