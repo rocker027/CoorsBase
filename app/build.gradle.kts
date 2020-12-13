@@ -44,14 +44,47 @@ android {
         viewBinding = true
     }
 }
-//
+
 dependencies {
     implementation(Libs.Kotlin.StdLib)
+    implementation(Libs.Kotlin.Coroutines)
     implementation(Libs.AndroidX.Core)
     implementation(Libs.AndroidX.AppCompat)
     implementation(Libs.AndroidX.ConstraintLayout)
+    implementation(Libs.AndroidX.Fragment)
+    implementation(Libs.AndroidX.LifeCycle)
+    implementation(Libs.AndroidX.LiveData)
+    implementation(Libs.AndroidX.NavigationRuntimeKtx)
+    implementation(Libs.AndroidX.NavigationFragmentKtx)
+    implementation(Libs.AndroidX.NavigationUiKtx)
+    implementation(Libs.AndroidX.LifecycleReactivestreamsKtx)
+    implementation(Libs.AndroidX.ViewModelKtx)
+    implementation(Libs.AndroidX.Room)
+
     implementation(Libs.Google.Material)
+
+    implementation(Libs.Squareup.Retrofit)
+    implementation(Libs.Squareup.MoshiConverter)
+    implementation(Libs.Squareup.Moshi)
+    implementation(Libs.Squareup.OkHttp)
+
+    implementation(Libs.FlowBinding.FlowBindingAndroid)
+    implementation(Libs.FlowBinding.Activity)
+    implementation(Libs.FlowBinding.Appcompat)
+    implementation(Libs.FlowBinding.Core)
+    implementation(Libs.FlowBinding.DrawerLayout)
+    implementation(Libs.FlowBinding.LifeCycle)
+    implementation(Libs.FlowBinding.Navigation)
+    implementation(Libs.FlowBinding.Preference)
+    implementation(Libs.FlowBinding.Recyclerview)
+    implementation(Libs.FlowBinding.SwipeRefreshLayout)
+    implementation(Libs.FlowBinding.ViewPager2)
+    implementation(Libs.FlowBinding.Material)
+
+    implementation(Libs.Other.Coli)
+
     testImplementation(Libs.Junit.Junit)
-    androidTestImplementation(Libs.AndroidX.Junit)
+    testImplementation(Libs.Other.MockKUnit)
+    androidTestImplementation(Libs.Other.MockKAndroid)
     androidTestImplementation(Libs.AndroidX.Espresso)
 }
