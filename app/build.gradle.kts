@@ -83,6 +83,8 @@ dependencies {
     implementation(Libs.FlowBinding.Material)
 
     implementation(Libs.Other.Coli)
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:${rootProject.extra["kotlin_version"]}")
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
 
     testImplementation(Libs.Junit.Junit)
     testImplementation(Libs.Other.MockKUnit)
