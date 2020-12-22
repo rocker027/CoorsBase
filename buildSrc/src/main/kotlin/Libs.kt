@@ -30,11 +30,11 @@ object Libs {
         const val LiveData =
             "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.AndroidX.LiveData}"
         const val NavigationRuntimeKtx =
-            "androidx.navigation:navigation-runtime-ktx:${Versions.AndroidX.Navigation}"
+            "androidx.navigation:navigation-fragment-ktx:${Versions.AndroidX.Navigation}"
         const val NavigationFragmentKtx =
             "androidx.navigation:navigation-runtime-ktx:${Versions.AndroidX.Navigation}"
         const val NavigationUiKtx =
-            "androidx.navigation:navigation-runtime-ktx:${Versions.AndroidX.Navigation}"
+            "androidx.navigation:navigation-ui-ktx:${Versions.AndroidX.Navigation}"
         const val LifecycleReactivestreamsKtx =
             "androidx.lifecycle:lifecycle-reactivestreams-ktx:${Versions.AndroidX.LifeCycle}"
         const val ViewModelKtx =
