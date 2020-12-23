@@ -19,7 +19,7 @@ object Versions {
     }
 
     object Junit {
-        const val Ver = "4.+"
+        const val Ver = "4.12"
     }
 
     object AndroidX {

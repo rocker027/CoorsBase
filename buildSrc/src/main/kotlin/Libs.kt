@@ -12,7 +12,7 @@ object Libs {
     }
 
     object Junit {
-        const val Junit = "junit:junit:${Versions.AndroidX.Junit}"
+        const val Junit = "junit:junit:${Versions.Junit.Ver}"
     }
 
     object AndroidX {
