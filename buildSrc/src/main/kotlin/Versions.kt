@@ -14,6 +14,7 @@ object Versions {
     }
 
     object Kotlin {
+        const val CoroutinesTest = "1.4.2"
         const val Coroutines = "1.3.9"
         const val Ver = "1.4.10"
     }

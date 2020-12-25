@@ -3,8 +3,8 @@ import Versions.Android.compileSdkVersion
 plugins {
     id("com.android.application")
     id("kotlin-android")
-    id("kotlin-android-extensions")
     id("kotlin-kapt")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -87,6 +87,7 @@ dependencies {
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
 
     testImplementation(Libs.Junit.Junit)
+    testImplementation(Libs.Kotlin.CoroutinesTest)
     testImplementation(Libs.Other.MockKUnit)
     androidTestImplementation(Libs.Other.MockKAndroid)
     androidTestImplementation(Libs.AndroidX.Espresso)

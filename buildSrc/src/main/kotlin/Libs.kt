@@ -9,6 +9,8 @@ object Libs {
         const val GradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.Kotlin.Ver}"
         const val Coroutines =
             "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.Kotlin.Coroutines}"
+        const val CoroutinesTest =
+            "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.Kotlin.CoroutinesTest}"
     }
 
     object Junit {
