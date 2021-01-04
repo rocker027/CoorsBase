@@ -6,7 +6,7 @@ import com.ttmj.coorsbase.delegate.viewBinding
 
 class MainFragment : BaseFragment(R.layout.fragment_main) {
 
-    override val binding by viewBinding(FragmentMainBinding::bind)
+    override val viewBinding by viewBinding(FragmentMainBinding::bind)
 
     companion object {
         @JvmStatic
@@ -22,5 +22,6 @@ class MainFragment : BaseFragment(R.layout.fragment_main) {
     override fun initView(){}
 
     private fun afterInitView() {}
+
 
 }
