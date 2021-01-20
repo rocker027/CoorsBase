@@ -42,6 +42,7 @@ object Libs {
         const val ViewModelKtx =
             "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.AndroidX.ViewModel}"
         const val Room = "androidx.room:room-ktx:${Versions.AndroidX.Room}"
+        const val SavedState = "androidx.lifecycle:lifecycle-viewmodel-savedstate:${Versions.AndroidX.LifeCycle}"
     }
 
     object Squareup {
@@ -56,28 +57,56 @@ object Libs {
         const val Material = "com.google.android.material:material:${Versions.Google.Material}"
     }
 
-    object FlowBinding {
-        // Platform Bindings
-        const val FlowBindingAndroid = "io.github.reactivecircus.flowbinding:flowbinding-android:${Versions.Other.FlowBinding}"
-        // AndroidX Bindings
-        const val Activity = "io.github.reactivecircus.flowbinding:flowbinding-activity:${Versions.Other.FlowBinding}"
-        const val Appcompat = "io.github.reactivecircus.flowbinding:flowbinding-appcompat:${Versions.Other.FlowBinding}"
-        const val Core = "io.github.reactivecircus.flowbinding:flowbinding-core:${Versions.Other.FlowBinding}"
-        const val DrawerLayout = "io.github.reactivecircus.flowbinding:flowbinding-drawerlayout:${Versions.Other.FlowBinding}"
-        const val LifeCycle = "io.github.reactivecircus.flowbinding:flowbinding-lifecycle:${Versions.Other.FlowBinding}"
-        const val Navigation = "io.github.reactivecircus.flowbinding:flowbinding-navigation:${Versions.Other.FlowBinding}"
-        const val Preference = "io.github.reactivecircus.flowbinding:flowbinding-preference:${Versions.Other.FlowBinding}"
-        const val Recyclerview = "io.github.reactivecircus.flowbinding:flowbinding-recyclerview:${Versions.Other.FlowBinding}"
-        const val SwipeRefreshLayout = "io.github.reactivecircus.flowbinding:flowbinding-swiperefreshlayout:${Versions.Other.FlowBinding}"
-        const val ViewPager2 = "io.github.reactivecircus.flowbinding:flowbinding-viewpager2:${Versions.Other.FlowBinding}"
+//    object FlowBinding {
+//        // Platform Bindings
+//        const val FlowBindingAndroid = "io.github.reactivecircus.flowbinding:flowbinding-android:${Versions.Other.FlowBinding}"
+//        // AndroidX Bindings
+//        const val Activity = "io.github.reactivecircus.flowbinding:flowbinding-activity:${Versions.Other.FlowBinding}"
+//        const val Appcompat = "io.github.reactivecircus.flowbinding:flowbinding-appcompat:${Versions.Other.FlowBinding}"
+//        const val Core = "io.github.reactivecircus.flowbinding:flowbinding-core:${Versions.Other.FlowBinding}"
+//        const val DrawerLayout = "io.github.reactivecircus.flowbinding:flowbinding-drawerlayout:${Versions.Other.FlowBinding}"
+//        const val LifeCycle = "io.github.reactivecircus.flowbinding:flowbinding-lifecycle:${Versions.Other.FlowBinding}"
+//        const val Navigation = "io.github.reactivecircus.flowbinding:flowbinding-navigation:${Versions.Other.FlowBinding}"
+//        const val Preference = "io.github.reactivecircus.flowbinding:flowbinding-preference:${Versions.Other.FlowBinding}"
+//        const val Recyclerview = "io.github.reactivecircus.flowbinding:flowbinding-recyclerview:${Versions.Other.FlowBinding}"
+//        const val SwipeRefreshLayout = "io.github.reactivecircus.flowbinding:flowbinding-swiperefreshlayout:${Versions.Other.FlowBinding}"
+//        const val ViewPager2 = "io.github.reactivecircus.flowbinding:flowbinding-viewpager2:${Versions.Other.FlowBinding}"
+//
+//        // Material Components Bindings
+//        const val Material = "io.github.reactivecircus.flowbinding:flowbinding-material:${Versions.Other.FlowBinding}"
+//    }
 
-        // Material Components Bindings
-        const val Material = "io.github.reactivecircus.flowbinding:flowbinding-material:${Versions.Other.FlowBinding}"
+    object Corbind {
+        const val Platform = "ru.ldralighieri.corbind:corbind:${Versions.Other.Corbind}"
+        const val AppCompat = "ru.ldralighieri.corbind:corbind-appcompat:${Versions.Other.Corbind}"
+        const val Core = "ru.ldralighieri.corbind:corbind-core:${Versions.Other.Corbind}"
+        const val DrawerLayout = "ru.ldralighieri.corbind:corbind-drawerlayout:${Versions.Other.Corbind}"
+        const val Leanback = "ru.ldralighieri.corbind:corbind-leanback:${Versions.Other.Corbind}"
+        const val Navigation = "ru.ldralighieri.corbind:corbind-navigation:${Versions.Other.Corbind}"
+        const val Recyclerview = "ru.ldralighieri.corbind:corbind-recyclerview:${Versions.Other.Corbind}"
+        const val SlidingPaneLayout = "ru.ldralighieri.corbind:corbind-slidingpanelayout:${Versions.Other.Corbind}"
+        const val SwipeRefreshLayout = "ru.ldralighieri.corbind:corbind-swiperefreshlayout:${Versions.Other.Corbind}"
+        const val ViewPager2 = "ru.ldralighieri.corbind:corbind-viewpager2:${Versions.Other.Corbind}"
+        const val Material = "ru.ldralighieri.corbind:corbind-material:${Versions.Other.Corbind}"
+    }
+
+    object Koin {
+        const val Core = "org.koin:koin-core:${Versions.Koin.Ver}"
+        const val CoreExt = "org.koin:koin-core-ext:${Versions.Koin.Ver}"
+        const val Test = "org.koin:koin-test:${Versions.Koin.Ver}"
+        const val Scope = "org.koin:koin-androidx-scope:${Versions.Koin.Ver}"
+        const val ViewModel = "org.koin:koin-androidx-viewmodel:${Versions.Koin.Ver}"
+        const val Fragment = "org.koin:koin-androidx-fragment:${Versions.Koin.Ver}"
+        const val WorkManager = "org.koin:koin-androidx-workmanager:${Versions.Koin.Ver}"
+        const val Compose = "org.koin:koin-androidx-compose:${Versions.Koin.Ver}"
+        const val Ext = "org.koin:koin-androidx-ext:${Versions.Koin.Ver}"
     }
 
     object Other {
         const val Coli = "io.coil-kt:coil:${Versions.Other.Coli}"
         const val MockKUnit = "io.mockk:mockk:${Versions.Other.MockK}"
         const val MockKAndroid = "io.mockk:mockk-android:${Versions.Other.MockK}"
+        const val Timber = "com.jakewharton.timber:timber:${Versions.Other.Timber}"
+        const val TransformationLayout = "com.github.skydoves:transformationlayout:${Versions.Other.TransformationLayout}"
     }
 }

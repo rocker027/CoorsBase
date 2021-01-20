@@ -17,7 +17,7 @@
 package com.ttmj.coorsbase.domain
 
 import androidx.lifecycle.MediatorLiveData
-import com.google.samples.apps.iosched.shared.result.Result
+import com.ttmj.coorsbase.result.Result
 
 /**
  * Executes business logic in its execute method and keep posting updates to the result as

@@ -47,9 +47,17 @@ object Versions {
         const val Moshi = "1.11.0"
     }
 
+    object Koin {
+        const val Ver = "2.2.2"
+    }
+
     object Other {
-        const val FlowBinding = "1.0.0-beta02"
+        const val Corbind = "1.4.0"
+
+        //        const val FlowBinding = "1.0.0-beta02"
         const val Coli = "1.1.0"
         const val MockK = "1.10.3-jdk8"
+        const val Timber = "4.7.1"
+        const val TransformationLayout = "1.0.7"
     }
 }

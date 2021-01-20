@@ -1,6 +1,7 @@
-package com.ttmj.coorsbase.ui
+package com.ttmj.coorsbase.ui.main
 
 import com.ttmj.coorsbase.R
+import com.ttmj.coorsbase.base.BaseFragment
 import com.ttmj.coorsbase.databinding.FragmentMainBinding
 import com.ttmj.coorsbase.delegate.viewBinding
 
@@ -19,7 +20,11 @@ class MainFragment : BaseFragment(R.layout.fragment_main) {
 
     private fun beforeInitView() {}
 
-    override fun initView(){}
+    override fun initView(){
+        with(viewBinding){
+            rvMainMenu.adapter = MainMenuAdapter()
+        }
+    }
 
     private fun afterInitView() {}
 

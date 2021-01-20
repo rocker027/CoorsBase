@@ -16,7 +16,7 @@
 
 package com.ttmj.coorsbase.domain
 
-import com.google.samples.apps.iosched.shared.result.Result
+import com.ttmj.coorsbase.result.Result
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import timber.log.Timber

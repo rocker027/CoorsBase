@@ -1,4 +1,4 @@
-package com.ttmj.coorsbase.ui
+package com.ttmj.coorsbase.base
 
 import android.os.Bundle
 import android.view.View
